@@ -42,9 +42,9 @@ class WebViewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
+//      appBar: AppBar(
+//        title: Text(title),
+//      ),
       body: SafeArea(
         child: WebView(
           initialUrl: url,
